@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="279.583333333 ms"></ZoomStartTime>
+      <ZoomEndTime time="296.363333334 ms"></ZoomEndTime>
+      <Cursor1Time time="300.000000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="230"></NameColumnWidth>
+      <ValueColumnWidth column_width="81"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="103" />
+   <wvobject fp_name="/tb/Serial_input" type="logic">
+      <obj_property name="ElementShortName">Serial_input</obj_property>
+      <obj_property name="ObjectShortName">Serial_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Clk_int" type="logic">
+      <obj_property name="ElementShortName">Clk_int</obj_property>
+      <obj_property name="ObjectShortName">Clk_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/Clk_ps2" type="logic">
+      <obj_property name="ElementShortName">Clk_ps2</obj_property>
+      <obj_property name="ObjectShortName">Clk_ps2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/q" type="array">
+      <obj_property name="ElementShortName">q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ca" type="array">
+      <obj_property name="ElementShortName">ca[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ca[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/an0" type="logic">
+      <obj_property name="ElementShortName">an0</obj_property>
+      <obj_property name="ObjectShortName">an0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/an1" type="logic">
+      <obj_property name="ElementShortName">an1</obj_property>
+      <obj_property name="ObjectShortName">an1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/an2" type="logic">
+      <obj_property name="ElementShortName">an2</obj_property>
+      <obj_property name="ObjectShortName">an2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/an3" type="logic">
+      <obj_property name="ElementShortName">an3</obj_property>
+      <obj_property name="ObjectShortName">an3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/an4" type="logic">
+      <obj_property name="ElementShortName">an4</obj_property>
+      <obj_property name="ObjectShortName">an4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/an5" type="logic">
+      <obj_property name="ElementShortName">an5</obj_property>
+      <obj_property name="ObjectShortName">an5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/an6" type="logic">
+      <obj_property name="ElementShortName">an6</obj_property>
+      <obj_property name="ObjectShortName">an6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/an7" type="logic">
+      <obj_property name="ElementShortName">an7</obj_property>
+      <obj_property name="ObjectShortName">an7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/Serial_input" type="logic">
+      <obj_property name="ElementShortName">Serial_input</obj_property>
+      <obj_property name="ObjectShortName">Serial_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/Clk_int" type="logic">
+      <obj_property name="ElementShortName">Clk_int</obj_property>
+      <obj_property name="ObjectShortName">Clk_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/Clk_ps2" type="logic">
+      <obj_property name="ElementShortName">Clk_ps2</obj_property>
+      <obj_property name="ObjectShortName">Clk_ps2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an0" type="logic">
+      <obj_property name="ElementShortName">an0</obj_property>
+      <obj_property name="ObjectShortName">an0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an1" type="logic">
+      <obj_property name="ElementShortName">an1</obj_property>
+      <obj_property name="ObjectShortName">an1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an2" type="logic">
+      <obj_property name="ElementShortName">an2</obj_property>
+      <obj_property name="ObjectShortName">an2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an3" type="logic">
+      <obj_property name="ElementShortName">an3</obj_property>
+      <obj_property name="ObjectShortName">an3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an4" type="logic">
+      <obj_property name="ElementShortName">an4</obj_property>
+      <obj_property name="ObjectShortName">an4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an5" type="logic">
+      <obj_property name="ElementShortName">an5</obj_property>
+      <obj_property name="ObjectShortName">an5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an6" type="logic">
+      <obj_property name="ElementShortName">an6</obj_property>
+      <obj_property name="ObjectShortName">an6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an7" type="logic">
+      <obj_property name="ElementShortName">an7</obj_property>
+      <obj_property name="ObjectShortName">an7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/ca" type="array">
+      <obj_property name="ElementShortName">ca[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ca[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/tCount" type="logic">
+      <obj_property name="ElementShortName">tCount</obj_property>
+      <obj_property name="ObjectShortName">tCount</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/en_shift" type="logic">
+      <obj_property name="ElementShortName">en_shift</obj_property>
+      <obj_property name="ObjectShortName">en_shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/outMUX8TO1WHICHIS1BIT" type="logic">
+      <obj_property name="ElementShortName">outMUX8TO1WHICHIS1BIT</obj_property>
+      <obj_property name="ObjectShortName">outMUX8TO1WHICHIS1BIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/tc" type="logic">
+      <obj_property name="ElementShortName">tc</obj_property>
+      <obj_property name="ObjectShortName">tc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/sync_clk" type="logic">
+      <obj_property name="ElementShortName">sync_clk</obj_property>
+      <obj_property name="ObjectShortName">sync_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/valid_validationUnit" type="logic">
+      <obj_property name="ElementShortName">valid_validationUnit</obj_property>
+      <obj_property name="ObjectShortName">valid_validationUnit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/valid_eo_verification" type="logic">
+      <obj_property name="ElementShortName">valid_eo_verification</obj_property>
+      <obj_property name="ObjectShortName">valid_eo_verification</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/valid_fo_verification" type="logic">
+      <obj_property name="ElementShortName">valid_fo_verification</obj_property>
+      <obj_property name="ObjectShortName">valid_fo_verification</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/valid_enter" type="logic">
+      <obj_property name="ElementShortName">valid_enter</obj_property>
+      <obj_property name="ObjectShortName">valid_enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/shiftreg_output_11bits" type="array">
+      <obj_property name="ElementShortName">shiftreg_output_11bits[10:0]</obj_property>
+      <obj_property name="ObjectShortName">shiftreg_output_11bits[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/shiftreg_output_8bits" type="array">
+      <obj_property name="ElementShortName">shiftreg_output_8bits[8:1]</obj_property>
+      <obj_property name="ObjectShortName">shiftreg_output_8bits[8:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/mux8TO1WHICHIS1BIT_values" type="array">
+      <obj_property name="ElementShortName">mux8TO1WHICHIS1BIT_values[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mux8TO1WHICHIS1BIT_values[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/outputDecoder" type="array">
+      <obj_property name="ElementShortName">outputDecoder[7:0]</obj_property>
+      <obj_property name="ObjectShortName">outputDecoder[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p7" type="array">
+      <obj_property name="ElementShortName">p7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p7[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p6" type="array">
+      <obj_property name="ElementShortName">p6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p6[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p5" type="array">
+      <obj_property name="ElementShortName">p5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p5[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p4" type="array">
+      <obj_property name="ElementShortName">p4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p3" type="array">
+      <obj_property name="ElementShortName">p3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p2" type="array">
+      <obj_property name="ElementShortName">p2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p1" type="array">
+      <obj_property name="ElementShortName">p1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p0" type="array">
+      <obj_property name="ElementShortName">p0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/counter3bitsValue" type="array">
+      <obj_property name="ElementShortName">counter3bitsValue[2:0]</obj_property>
+      <obj_property name="ObjectShortName">counter3bitsValue[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/c" type="array">
+      <obj_property name="ElementShortName">c[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/q" type="array">
+      <obj_property name="ElementShortName">q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/address" type="array">
+      <obj_property name="ElementShortName">address[4:0]</obj_property>
+      <obj_property name="ObjectShortName">address[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/constant_0" type="logic">
+      <obj_property name="ElementShortName">constant_0</obj_property>
+      <obj_property name="ObjectShortName">constant_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/resetSerialAccordingToCU" type="logic">
+      <obj_property name="ElementShortName">resetSerialAccordingToCU</obj_property>
+      <obj_property name="ObjectShortName">resetSerialAccordingToCU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/resetSerial" type="logic">
+      <obj_property name="ElementShortName">resetSerial</obj_property>
+      <obj_property name="ObjectShortName">resetSerial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/resetCounterDelay" type="logic">
+      <obj_property name="ElementShortName">resetCounterDelay</obj_property>
+      <obj_property name="ObjectShortName">resetCounterDelay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/tcDelay" type="logic">
+      <obj_property name="ElementShortName">tcDelay</obj_property>
+      <obj_property name="ObjectShortName">tcDelay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/Serial_input" type="logic">
+      <obj_property name="ElementShortName">Serial_input</obj_property>
+      <obj_property name="ObjectShortName">Serial_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/Clk_int" type="logic">
+      <obj_property name="ElementShortName">Clk_int</obj_property>
+      <obj_property name="ObjectShortName">Clk_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/Clk_ps2" type="logic">
+      <obj_property name="ElementShortName">Clk_ps2</obj_property>
+      <obj_property name="ObjectShortName">Clk_ps2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an0" type="logic">
+      <obj_property name="ElementShortName">an0</obj_property>
+      <obj_property name="ObjectShortName">an0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an1" type="logic">
+      <obj_property name="ElementShortName">an1</obj_property>
+      <obj_property name="ObjectShortName">an1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an2" type="logic">
+      <obj_property name="ElementShortName">an2</obj_property>
+      <obj_property name="ObjectShortName">an2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an3" type="logic">
+      <obj_property name="ElementShortName">an3</obj_property>
+      <obj_property name="ObjectShortName">an3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an4" type="logic">
+      <obj_property name="ElementShortName">an4</obj_property>
+      <obj_property name="ObjectShortName">an4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an5" type="logic">
+      <obj_property name="ElementShortName">an5</obj_property>
+      <obj_property name="ObjectShortName">an5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an6" type="logic">
+      <obj_property name="ElementShortName">an6</obj_property>
+      <obj_property name="ObjectShortName">an6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/an7" type="logic">
+      <obj_property name="ElementShortName">an7</obj_property>
+      <obj_property name="ObjectShortName">an7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/ca" type="array">
+      <obj_property name="ElementShortName">ca[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ca[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/tCount" type="logic">
+      <obj_property name="ElementShortName">tCount</obj_property>
+      <obj_property name="ObjectShortName">tCount</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/en_shift" type="logic">
+      <obj_property name="ElementShortName">en_shift</obj_property>
+      <obj_property name="ObjectShortName">en_shift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/outMUX8TO1WHICHIS1BIT" type="logic">
+      <obj_property name="ElementShortName">outMUX8TO1WHICHIS1BIT</obj_property>
+      <obj_property name="ObjectShortName">outMUX8TO1WHICHIS1BIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/tc" type="logic">
+      <obj_property name="ElementShortName">tc</obj_property>
+      <obj_property name="ObjectShortName">tc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/sync_clk" type="logic">
+      <obj_property name="ElementShortName">sync_clk</obj_property>
+      <obj_property name="ObjectShortName">sync_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/valid_validationUnit" type="logic">
+      <obj_property name="ElementShortName">valid_validationUnit</obj_property>
+      <obj_property name="ObjectShortName">valid_validationUnit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/valid_eo_verification" type="logic">
+      <obj_property name="ElementShortName">valid_eo_verification</obj_property>
+      <obj_property name="ObjectShortName">valid_eo_verification</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/valid_fo_verification" type="logic">
+      <obj_property name="ElementShortName">valid_fo_verification</obj_property>
+      <obj_property name="ObjectShortName">valid_fo_verification</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/valid_enter" type="logic">
+      <obj_property name="ElementShortName">valid_enter</obj_property>
+      <obj_property name="ObjectShortName">valid_enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/shiftreg_output_11bits" type="array">
+      <obj_property name="ElementShortName">shiftreg_output_11bits[10:0]</obj_property>
+      <obj_property name="ObjectShortName">shiftreg_output_11bits[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/shiftreg_output_8bits" type="array">
+      <obj_property name="ElementShortName">shiftreg_output_8bits[8:1]</obj_property>
+      <obj_property name="ObjectShortName">shiftreg_output_8bits[8:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/mux8TO1WHICHIS1BIT_values" type="array">
+      <obj_property name="ElementShortName">mux8TO1WHICHIS1BIT_values[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mux8TO1WHICHIS1BIT_values[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/outputDecoder" type="array">
+      <obj_property name="ElementShortName">outputDecoder[7:0]</obj_property>
+      <obj_property name="ObjectShortName">outputDecoder[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p7" type="array">
+      <obj_property name="ElementShortName">p7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p7[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p6" type="array">
+      <obj_property name="ElementShortName">p6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p6[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p5" type="array">
+      <obj_property name="ElementShortName">p5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p5[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p4" type="array">
+      <obj_property name="ElementShortName">p4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p3" type="array">
+      <obj_property name="ElementShortName">p3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p2" type="array">
+      <obj_property name="ElementShortName">p2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p1" type="array">
+      <obj_property name="ElementShortName">p1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/p0" type="array">
+      <obj_property name="ElementShortName">p0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/counter3bitsValue" type="array">
+      <obj_property name="ElementShortName">counter3bitsValue[2:0]</obj_property>
+      <obj_property name="ObjectShortName">counter3bitsValue[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/c" type="array">
+      <obj_property name="ElementShortName">c[3:0]</obj_property>
+      <obj_property name="ObjectShortName">c[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/address" type="array">
+      <obj_property name="ElementShortName">address[4:0]</obj_property>
+      <obj_property name="ObjectShortName">address[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/constant_0" type="logic">
+      <obj_property name="ElementShortName">constant_0</obj_property>
+      <obj_property name="ObjectShortName">constant_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/resetSerialAccordingToCU" type="logic">
+      <obj_property name="ElementShortName">resetSerialAccordingToCU</obj_property>
+      <obj_property name="ObjectShortName">resetSerialAccordingToCU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/resetSerial" type="logic">
+      <obj_property name="ElementShortName">resetSerial</obj_property>
+      <obj_property name="ObjectShortName">resetSerial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/resetCounterDelay" type="logic">
+      <obj_property name="ElementShortName">resetCounterDelay</obj_property>
+      <obj_property name="ObjectShortName">resetCounterDelay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interface/tcDelay" type="logic">
+      <obj_property name="ElementShortName">tcDelay</obj_property>
+      <obj_property name="ObjectShortName">tcDelay</obj_property>
+   </wvobject>
+</wave_config>

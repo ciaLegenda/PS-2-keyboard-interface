@@ -1,0 +1,120 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed May 24 12:57:31 2023
+# Process ID: 11112
+# Current directory: C:/Users/Calin/Desktop/dsd/ps2beta 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5064 C:\Users\Calin\Desktop\dsd\ps2beta 2\ps2beta 2.xpr
+# Log file: C:/Users/Calin/Desktop/dsd/ps2beta 2/vivado.log
+# Journal file: C:/Users/Calin/Desktop/dsd/ps2beta 2\vivado.jou
+# Running On: DESKTOP-6HUJUEN, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Calin/Desktop/dsd/ps2beta 2/ps2beta 2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+set_property -name {xsim.simulate.runtime} -value {0.3} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb/interface/Serial_input}} {{/tb/interface/Clk_int}} {{/tb/interface/Clk_ps2}} {{/tb/interface/reset}} {{/tb/interface/an0}} {{/tb/interface/an1}} {{/tb/interface/an2}} {{/tb/interface/an3}} {{/tb/interface/an4}} {{/tb/interface/an5}} {{/tb/interface/an6}} {{/tb/interface/an7}} {{/tb/interface/ca}} {{/tb/interface/state}} {{/tb/interface/tCount}} {{/tb/interface/en_shift}} {{/tb/interface/clear}} {{/tb/interface/outMUX8TO1WHICHIS1BIT}} {{/tb/interface/tc}} {{/tb/interface/sync_clk}} {{/tb/interface/valid_validationUnit}} {{/tb/interface/valid_eo_verification}} {{/tb/interface/valid_fo_verification}} {{/tb/interface/valid_enter}} {{/tb/interface/shiftreg_output_11bits}} {{/tb/interface/shiftreg_output_8bits}} {{/tb/interface/mux8TO1WHICHIS1BIT_values}} {{/tb/interface/outputDecoder}} {{/tb/interface/p7}} {{/tb/interface/p6}} {{/tb/interface/p5}} {{/tb/interface/p4}} {{/tb/interface/p3}} {{/tb/interface/p2}} {{/tb/interface/p1}} {{/tb/interface/p0}} {{/tb/interface/counter3bitsValue}} {{/tb/interface/c}} {{/tb/interface/q}} {{/tb/interface/address}} {{/tb/interface/constant_0}} {{/tb/interface/resetSerialAccordingToCU}} {{/tb/interface/resetSerial}} {{/tb/interface/resetCounterDelay}} {{/tb/interface/tcDelay}} 
+current_wave_config {Untitled 2}
+log_wave {/tb/interface/Serial_input} {/tb/interface/Clk_int} {/tb/interface/Clk_ps2} {/tb/interface/reset} {/tb/interface/an0} {/tb/interface/an1} {/tb/interface/an2} {/tb/interface/an3} {/tb/interface/an4} {/tb/interface/an5} {/tb/interface/an6} {/tb/interface/an7} {/tb/interface/ca} {/tb/interface/state} {/tb/interface/tCount} {/tb/interface/en_shift} {/tb/interface/clear} {/tb/interface/outMUX8TO1WHICHIS1BIT} {/tb/interface/tc} {/tb/interface/sync_clk} {/tb/interface/valid_validationUnit} {/tb/interface/valid_eo_verification} {/tb/interface/valid_fo_verification} {/tb/interface/valid_enter} {/tb/interface/shiftreg_output_11bits} {/tb/interface/shiftreg_output_8bits} {/tb/interface/mux8TO1WHICHIS1BIT_values} {/tb/interface/outputDecoder} {/tb/interface/p7} {/tb/interface/p6} {/tb/interface/p5} {/tb/interface/p4} {/tb/interface/p3} {/tb/interface/p2} {/tb/interface/p1} {/tb/interface/p0} {/tb/interface/counter3bitsValue} {/tb/interface/c} {/tb/interface/q} {/tb/interface/address} {/tb/interface/constant_0} {/tb/interface/resetSerialAccordingToCU} {/tb/interface/resetSerial} {/tb/interface/resetCounterDelay} {/tb/interface/tcDelay} 
+current_wave_config {Untitled 2}
+log_wave {/tb/interface/Serial_input} {/tb/interface/Clk_int} {/tb/interface/Clk_ps2} {/tb/interface/reset} {/tb/interface/an0} {/tb/interface/an1} {/tb/interface/an2} {/tb/interface/an3} {/tb/interface/an4} {/tb/interface/an5} {/tb/interface/an6} {/tb/interface/an7} {/tb/interface/ca} {/tb/interface/state} {/tb/interface/tCount} {/tb/interface/en_shift} {/tb/interface/clear} {/tb/interface/outMUX8TO1WHICHIS1BIT} {/tb/interface/tc} {/tb/interface/sync_clk} {/tb/interface/valid_validationUnit} {/tb/interface/valid_eo_verification} {/tb/interface/valid_fo_verification} {/tb/interface/valid_enter} {/tb/interface/shiftreg_output_11bits} {/tb/interface/shiftreg_output_8bits} {/tb/interface/mux8TO1WHICHIS1BIT_values} {/tb/interface/outputDecoder} {/tb/interface/p7} {/tb/interface/p6} {/tb/interface/p5} {/tb/interface/p4} {/tb/interface/p3} {/tb/interface/p2} {/tb/interface/p1} {/tb/interface/p0} {/tb/interface/counter3bitsValue} {/tb/interface/c} {/tb/interface/q} {/tb/interface/address} {/tb/interface/constant_0} {/tb/interface/resetSerialAccordingToCU} {/tb/interface/resetSerial} {/tb/interface/resetCounterDelay} {/tb/interface/tcDelay} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/interface/Serial_input}} {{/tb/interface/Clk_int}} {{/tb/interface/Clk_ps2}} {{/tb/interface/reset}} {{/tb/interface/an0}} {{/tb/interface/an1}} {{/tb/interface/an2}} {{/tb/interface/an3}} {{/tb/interface/an4}} {{/tb/interface/an5}} {{/tb/interface/an6}} {{/tb/interface/an7}} {{/tb/interface/ca}} {{/tb/interface/state}} {{/tb/interface/tCount}} {{/tb/interface/en_shift}} {{/tb/interface/clear}} {{/tb/interface/outMUX8TO1WHICHIS1BIT}} {{/tb/interface/tc}} {{/tb/interface/sync_clk}} {{/tb/interface/valid_validationUnit}} {{/tb/interface/valid_eo_verification}} {{/tb/interface/valid_fo_verification}} {{/tb/interface/valid_enter}} {{/tb/interface/shiftreg_output_11bits}} {{/tb/interface/shiftreg_output_8bits}} {{/tb/interface/mux8TO1WHICHIS1BIT_values}} {{/tb/interface/outputDecoder}} {{/tb/interface/p7}} {{/tb/interface/p6}} {{/tb/interface/p5}} {{/tb/interface/p4}} {{/tb/interface/p3}} {{/tb/interface/p2}} {{/tb/interface/p1}} {{/tb/interface/p0}} {{/tb/interface/counter3bitsValue}} {{/tb/interface/c}} {{/tb/interface/q}} {{/tb/interface/address}} {{/tb/interface/constant_0}} {{/tb/interface/resetSerialAccordingToCU}} {{/tb/interface/resetSerial}} {{/tb/interface/resetCounterDelay}} {{/tb/interface/tcDelay}} 
+close_sim
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 3}
+log_wave {/tb/interface/Serial_input} {/tb/interface/Clk_int} {/tb/interface/Clk_ps2} {/tb/interface/reset} {/tb/interface/an0} {/tb/interface/an1} {/tb/interface/an2} {/tb/interface/an3} {/tb/interface/an4} {/tb/interface/an5} {/tb/interface/an6} {/tb/interface/an7} {/tb/interface/ca} {/tb/interface/state} {/tb/interface/tCount} {/tb/interface/en_shift} {/tb/interface/clear} {/tb/interface/outMUX8TO1WHICHIS1BIT} {/tb/interface/tc} {/tb/interface/sync_clk} {/tb/interface/valid_validationUnit} {/tb/interface/valid_eo_verification} {/tb/interface/valid_fo_verification} {/tb/interface/valid_enter} {/tb/interface/shiftreg_output_11bits} {/tb/interface/shiftreg_output_8bits} {/tb/interface/mux8TO1WHICHIS1BIT_values} {/tb/interface/outputDecoder} {/tb/interface/p7} {/tb/interface/p6} {/tb/interface/p5} {/tb/interface/p4} {/tb/interface/p3} {/tb/interface/p2} {/tb/interface/p1} {/tb/interface/p0} {/tb/interface/counter3bitsValue} {/tb/interface/c} {/tb/interface/q} {/tb/interface/address} {/tb/interface/constant_0} {/tb/interface/resetSerialAccordingToCU} {/tb/interface/resetSerial} {/tb/interface/resetCounterDelay} {/tb/interface/tcDelay} 
+current_wave_config {Untitled 3}
+add_wave {{/tb/interface/Serial_input}} {{/tb/interface/Clk_int}} {{/tb/interface/Clk_ps2}} {{/tb/interface/reset}} {{/tb/interface/an0}} {{/tb/interface/an1}} {{/tb/interface/an2}} {{/tb/interface/an3}} {{/tb/interface/an4}} {{/tb/interface/an5}} {{/tb/interface/an6}} {{/tb/interface/an7}} {{/tb/interface/ca}} {{/tb/interface/state}} {{/tb/interface/tCount}} {{/tb/interface/en_shift}} {{/tb/interface/clear}} {{/tb/interface/outMUX8TO1WHICHIS1BIT}} {{/tb/interface/tc}} {{/tb/interface/sync_clk}} {{/tb/interface/valid_validationUnit}} {{/tb/interface/valid_eo_verification}} {{/tb/interface/valid_fo_verification}} {{/tb/interface/valid_enter}} {{/tb/interface/shiftreg_output_11bits}} {{/tb/interface/shiftreg_output_8bits}} {{/tb/interface/mux8TO1WHICHIS1BIT_values}} {{/tb/interface/outputDecoder}} {{/tb/interface/p7}} {{/tb/interface/p6}} {{/tb/interface/p5}} {{/tb/interface/p4}} {{/tb/interface/p3}} {{/tb/interface/p2}} {{/tb/interface/p1}} {{/tb/interface/p0}} {{/tb/interface/counter3bitsValue}} {{/tb/interface/c}} {{/tb/interface/q}} {{/tb/interface/address}} {{/tb/interface/constant_0}} {{/tb/interface/resetSerialAccordingToCU}} {{/tb/interface/resetSerial}} {{/tb/interface/resetCounterDelay}} {{/tb/interface/tcDelay}} 
+current_wave_config {Untitled 3}
+add_wave {{/tb/interface/Serial_input}} {{/tb/interface/Clk_int}} {{/tb/interface/Clk_ps2}} {{/tb/interface/reset}} {{/tb/interface/an0}} {{/tb/interface/an1}} {{/tb/interface/an2}} {{/tb/interface/an3}} {{/tb/interface/an4}} {{/tb/interface/an5}} {{/tb/interface/an6}} {{/tb/interface/an7}} {{/tb/interface/ca}} {{/tb/interface/state}} {{/tb/interface/tCount}} {{/tb/interface/en_shift}} {{/tb/interface/clear}} {{/tb/interface/outMUX8TO1WHICHIS1BIT}} {{/tb/interface/tc}} {{/tb/interface/sync_clk}} {{/tb/interface/valid_validationUnit}} {{/tb/interface/valid_eo_verification}} {{/tb/interface/valid_fo_verification}} {{/tb/interface/valid_enter}} {{/tb/interface/shiftreg_output_11bits}} {{/tb/interface/shiftreg_output_8bits}} {{/tb/interface/mux8TO1WHICHIS1BIT_values}} {{/tb/interface/outputDecoder}} {{/tb/interface/p7}} {{/tb/interface/p6}} {{/tb/interface/p5}} {{/tb/interface/p4}} {{/tb/interface/p3}} {{/tb/interface/p2}} {{/tb/interface/p1}} {{/tb/interface/p0}} {{/tb/interface/counter3bitsValue}} {{/tb/interface/c}} {{/tb/interface/q}} {{/tb/interface/address}} {{/tb/interface/constant_0}} {{/tb/interface/resetSerialAccordingToCU}} {{/tb/interface/resetSerial}} {{/tb/interface/resetCounterDelay}} {{/tb/interface/tcDelay}} 
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Calin/Desktop/dsd/ps2beta 2/ps2beta 2.runs/impl_1/TheBigSource.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Calin/Desktop/dsd/ps2beta 2/ps2beta 2.runs/impl_1/TheBigSource.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Calin/Desktop/dsd/ps2beta 2/ps2beta 2.runs/impl_1/TheBigSource.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+save_wave_config {C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}}
+set_property xsim.view {{C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}
+source tb.tcl
+set_property -name {xsim.simulate.runtime} -value {0.3s} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}
+source tb.tcl
+save_wave_config {C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}
+source tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Calin/Desktop/dsd/ps2beta 2/ps2beta 2.runs/impl_1/TheBigSource.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Calin/Desktop/dsd/ps2beta 2/tb_behav.wcfg}
+source tb.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Calin/Desktop/dsd/ps2beta 2/ps2beta 2.runs/impl_1/TheBigSource.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Calin/Desktop/dsd/ps2beta 2/ps2beta 2.runs/impl_1/TheBigSource.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim
