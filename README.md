@@ -1,6 +1,6 @@
 # PS/2 Keyboard Interface with 7-Segment Display
 
-https://github.com/ciaLegenda/PS-2-keyboard-interface/assets/82731283/8def089a-e354-4c00-9512-b0501eb6a59f
+https://github.com/ciaLegenda/PS-2-keyboard-interface/assets/82731283/c1e45b23-b6a0-406c-80ee-d59225035808
 
 This project is a VHDL implementation for interfacing the PS/2 protocol for keyboards with the Nexys 4 DDR board from Digilent. It displays the last 8 characters pressed on a 7-segment display.
 It is the final project for the Digital Systems Design laboratory.
