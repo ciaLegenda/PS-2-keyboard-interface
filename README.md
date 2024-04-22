@@ -13,11 +13,6 @@ In the current implementation it uses the built-in USB to PS/2 keyboard converto
 - *Return* key clears the screen.
 - VHDL implementation for the Nexys 4 DDR board.
 
-## Requirements
-
-- Nexys 4 DDR board from Analog Devices
-- PS/2 keyboard
-- 7-segment display
 
 ## Setup Instructions
 
